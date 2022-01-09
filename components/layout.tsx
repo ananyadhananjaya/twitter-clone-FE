@@ -4,7 +4,7 @@ import Sidebar from "./sidebar";
 const Layout:NextPage = ({children}) =>{
     return(
         <>
-        <div className="flex">
+        <div className="flex mx-4">
         <Sidebar />
         <main>{children}</main>
         </div>
